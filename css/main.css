@@ -1,0 +1,217 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0px;
+    margin-top: 50px;
+    font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;;
+}
+
+header p {
+    margin: 0px;
+}
+
+main .main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-logo figure {
+    margin: 0px;
+}
+
+main .main-logo {
+    margin-top: 0px;
+}
+
+main .main-logo figure img {
+    width: 200px;
+    height: 183px;
+}
+
+main .main-languages-left div {
+    text-align: center;
+}
+
+main .main-languages-left div p {
+    margin: 0px;
+    color: #36c;
+}
+
+main .main-languages-left div small {
+    color: #54595d;
+}
+
+main .main-languages-right div {
+    text-align: center;
+}
+
+main .main-languages-right div p {
+    margin: 0px;
+    color: #36c;
+}
+
+main .main-languages-right div small {
+    color: #54595d;
+}
+
+main .main-languages-left div:nth-of-type(1){
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-left div:nth-of-type(2){
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-left div:nth-of-type(3){
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-left div:nth-of-type(4){
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-left div:nth-of-type(5){
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-right div:nth-of-type(1){
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-right div:nth-of-type(2){
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-right div:nth-of-type(3){
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-right div:nth-of-type(4){
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+main .main-languages-right div:nth-of-type(5){
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+main .search-box {
+    width: 450px;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid #a2a9b1;
+    border-right: none;
+    display: flex;
+    align-items: center;
+}
+
+main .search-box input {
+    width: 350px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+main .search-box .search-select-lang-container {
+    margin-right: 15px;
+}
+
+main .search-box .search-select-lang-container select {
+    background-color: transparent;
+    border: none;
+    color: #5a5d5f;
+}
+
+main .search-box .search-select-lang-container select:hover {
+    background-color: #f8f9fa;
+}
+main .search-box .search-btn-container img {
+    width: 22px;
+}
+
+main .search-btn-container {
+    background-color: #3366cc;
+    width: 51px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .search-btn-container:hover {
+    background: #447ff5;
+    border-color: #447ff5;
+}
+
+main .search-box {
+    margin-top: 30px;
+}
+
+main .read-wikipedia {
+    width: 275px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+}
+
+main .read-wikipedia a {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+main .read-wikipedia .translate-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #3366cc;
+}
+
+main .read-wikipedia .read-wikipedia-btn span {
+    color: #3366cc;
+}
+
+main .read-wikipedia .arrow-icon {
+    font-size: 20px;
+    color: #3366cc;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+main .lang-hr {
+    border: 0.5px solid #c8ccd1;
+    width: 98vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
